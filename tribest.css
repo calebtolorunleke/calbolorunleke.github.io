@@ -1,0 +1,294 @@
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+header{
+    height: 60px;  
+    position: fixed;  
+    background-color: #ffff;
+    width: 100%;
+    margin-top: -50px;
+}
+header img{
+    margin: -8px 0px 0px 30px;
+    width: 110px;
+    height: 50px;
+}
+header ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+header li{
+    margin-right: 20px;
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
+}
+.firstsection{
+    background-image: url(../Tribest/first.jpg);
+    height: 450px;
+    background-size: contain;
+    margin-top: 50px;
+}
+.firstsection .firstdiv{
+    width: 30%;
+    padding: 150px 0px 0px 300px;
+    color: #ffff;
+}
+.firstdiv h1{
+    font-size: 50px;
+    padding: 10px;
+}
+.firstdiv h3{
+    font-size: 20px;
+    padding: 15px;
+}
+.firstdiv .firs{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+.firstdiv .sec{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(4, 5, 5, 0.616);
+    color: #ffff;
+}
+.justbutton{
+    padding-left: 20px;
+}
+.secondsection .firstdiv{
+    width: 50%;    
+    margin: auto;
+    padding: 60px;
+    text-align: center;
+}
+.secondsection .firstdiv p{
+    line-height: 30px;
+}
+.thirdsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thirdsection .firstdiv, .seconddiv, .thirddiv{
+    width: 25%;
+    margin: 15px;
+}
+.thirdsection h3{
+    margin-left: 23px;
+}
+.thirdsection p{    
+    line-height: 30px;
+    padding: 25px;
+}
+.seconddiv{
+    margin-top: 50px;
+}
+.fourthsection{
+    display: flex;
+    justify-content: center;
+}
+.fourthsection img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.purpose, .vision, .mission{
+    width: 20%;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(110, 110, 110, 0.144);
+    line-height: 40px;
+    height: 550px;
+    padding: 30px;
+}
+.extension{
+    margin: 0px 0px 0px 33%;
+    width: 50%;
+    padding: 50px;
+}
+.corevalue{
+    font-size: 50px;
+}
+.are{
+    font-size: 20px;
+    padding: 30px 0px 0px 120px;
+}
+.fifth{
+    display: flex;
+    justify-content: center;
+}
+.fifth img{
+    filter: invert(44%) sepia(0%) saturate(1356%) hue-rotate(145deg) brightness(104%) contrast(93%);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.fifth div{
+    width: 15%;
+    line-height: 40px;
+    margin: 10px;
+    text-align: center;
+}
+.learnmore{
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(0, 7, 57);
+    color: #ffff;
+    font-size: 20px;
+    margin: 5% 0px 5% 45%;
+}
+.sixth{
+    margin: 70px 10px 10px 10px;
+    height: 600px;
+}
+.sixth h1{
+    width: 20%;
+    font-size: 50px;
+    padding-left: 100px;
+}
+.sixth img{
+    width: 50px;
+    height: 40px;
+    filter: invert(41%) sepia(63%) saturate(485%) hue-rotate(163deg) brightness(98%) contrast(95%);
+}
+.sixth .firstdiv{
+    float: right;
+    width: 17%;
+    margin: -10% 40% 0% 0%;
+    line-height: 40px;
+}
+.sixth .seconddiv{
+    float: right;
+    width: 17%;
+    line-height: 40px;
+    margin: -38% 10% 0% 50%;
+}
+
+.firstimg{
+    float: right;
+    margin: -8% 57% 0% 0%;
+}
+.secondimg{
+    float: right;
+    margin: -8.5% -28% 0% 0%;
+}
+.sixth .thirddiv{
+    float: right;
+    margin-left: 130%;
+}
+.thirdimg{
+    float: right;
+    margin-right: 760px;
+    margin-top: 70px;
+}
+.sixth .thirddiv{
+    line-height: 50px;
+    padding-right: 400px;
+    margin-top: -42px;
+    margin-bottom: 100px;
+}
+.seventh{
+    margin-top: 450px;
+    height: 760px;
+}
+.seventh h1{
+    float: right;
+    font-size: 40px;
+    width: 28%;
+    margin-right: 29%;
+    margin-top: -50px;
+}
+.seventh div{
+    width: 30%;
+    margin-top: 100px;
+    margin-right: -450px;
+    line-height: 40px;
+    float: right;
+    padding: 30px;
+    background-color: rgba(87, 81, 81, 0.256);
+}
+.seventh h4{
+    color: rgb(0, 7, 57);
+}
+.whatdoestri{
+    float: right;
+    margin-top: 400px;
+    margin-right: -460px;
+    padding: 30px 220px 30px 30px;
+    background-color: rgba(87, 81, 81, 0.256);
+}
+.location{
+    float: right;
+    margin-top: 500px;
+    margin-right: -460px;
+    padding: 30px 160px 30px 30px;
+    background-color: rgba(87, 81, 81, 0.256);
+}
+.seventh span{
+    float: right;
+    margin-top: 620px;
+    margin-right: -300px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(0, 7, 57);
+    color: #ffff;
+    font-size: 20px;
+}
+.last{
+    display: flex;
+    width: 80%;
+    padding: 50px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 70px;
+    background-color: rgb(7, 49, 86);
+}
+.contact2{
+    width: 40%;
+    margin-top: -50px;
+    background-color: rgba(19, 19, 81, 0.879);
+    padding: 40px;
+    color: #ffff;
+}
+.contact2 p{
+    color: rgb(151, 156, 160);
+    padding: 20px 0px 5px 0px;
+}
+.contact3 input{
+    margin: 0px 0px 15px 70px;
+    padding: 10px 200px 10px 10px;
+    background-color: black;
+    border: none;
+}
+.contact3 .lastinput{
+    padding-bottom: 100px;
+}
+.contact3 button{
+    padding: 10px;
+    margin-left: 390px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+footer{
+    background-color: black;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+footer img{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(196deg) brightness(103%) contrast(103%);
+    width: 20px;
+    float: right;
+    margin: 7px 100px 0px 0px;
+}
